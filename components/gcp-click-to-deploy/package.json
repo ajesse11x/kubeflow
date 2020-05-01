@@ -16,13 +16,16 @@
     "react-router-dom": "^4.3.1",
     "react-scripts-ts": "3.1.0",
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "@types/ajv": "^1.0.0",
@@ -38,5 +41,6 @@
     "@types/request": "^2.47.1",
     "@types/request-promise": "^4.1.42",
     "typescript": "^3.2.2"
-  }
+  },
+  "snyk": true
 }
