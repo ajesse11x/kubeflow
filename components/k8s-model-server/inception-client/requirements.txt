@@ -18,3 +18,4 @@ tensorflow-serving-api==1.6.0
 tensorboard==1.6.0
 termcolor==1.1.0
 Werkzeug==0.14.1
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
