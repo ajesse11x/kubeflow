@@ -34,8 +34,8 @@
     "homepage": "https://github.com/kubeflow/kubeflow#readme",
     "dependencies": {
         "@babel/polyfill": "^7.4.4",
-        "@google-cloud/monitoring": "^0.7.1",
-        "@kubernetes/client-node": "^0.8.2",
+        "@google-cloud/monitoring": "^4.0.0",
+        "@kubernetes/client-node": "^0.18.1",
         "@polymer/app-layout": "^3.0.0",
         "@polymer/app-route": "^3.0.0",
         "@polymer/iron-ajax": "^3.0.1",
@@ -60,7 +60,7 @@
         "@polymer/polymer": "^3.2.0",
         "@types/dotenv": "^6.1.1",
         "@webcomponents/webcomponentsjs": "^2.2.10",
-        "chart.js": "^2.8.0",
+        "chart.js": "^3.0.0",
         "chartjs-plugin-crosshair": "^1.1.2",
         "express": "^4.16.4",
         "web-animations-js": "^2.3.1"
