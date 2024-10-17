@@ -35,7 +35,7 @@
     "dependencies": {
         "@babel/polyfill": "^7.4.4",
         "@google-cloud/monitoring": "^0.7.1",
-        "@kubernetes/client-node": "^0.8.2",
+        "@kubernetes/client-node": "^0.22.1",
         "@polymer/app-layout": "^3.0.0",
         "@polymer/app-route": "^3.0.0",
         "@polymer/iron-ajax": "^3.0.1",
